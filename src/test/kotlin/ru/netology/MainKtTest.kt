@@ -17,7 +17,8 @@ class MainKtTest {
             currentTransactionAmount = currentTransactionAmount
         ).toDouble() / 100
 
-        assertEquals(293.41, commission, 0.0)
+//        assertEquals(293.41, commission, 0.0)
+        assertEquals(293.0, commission, 0.0)
     }
 
     @Test
@@ -32,7 +33,8 @@ class MainKtTest {
             currentTransactionAmount = currentTransactionAmount
         ).toDouble() / 100
 
-        assertEquals(0.0, commission, 0.0)
+//        assertEquals(0.0, commission, 0.0)
+        assertEquals(2.0, commission, 0.0)
     }
 
     @Test
